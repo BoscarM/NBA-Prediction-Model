@@ -3,7 +3,7 @@ import pandas as pd
 from nba_api.stats.endpoints import leaguegamefinder
 
 # Seasons to pull, e.g. "2023-24". Add or remove as you like.
-seasons = [f"{y}-{str(y + 1)[-2:]}" for y in range(2012, 2027)]
+seasons = [f"{y}-{str(y + 1)[-2:]}" for y in range(2015, 2027)]
 
 frames = []
 for season in seasons:
