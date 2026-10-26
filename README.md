@@ -7,6 +7,8 @@ pip install nba_api pandas scikit-learn
 
 ## Run
 python pull_games.py
+python pull_players.py
+python injury_features.py
 python build_features.py
 python train_model.py
 python predict.py
